@@ -2,3 +2,7 @@ DLL 所在目錄 C:\Qt\2010.05\qt\bin\
 
 Qt_002 相依DLL
 	-QtCored4.dll
+	
+Qt_003 相依DLL
+	-QtCored4.dll
+	-QtGuid4.dll
