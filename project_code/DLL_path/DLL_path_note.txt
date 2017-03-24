@@ -9,4 +9,8 @@ Qt_003 相依DLL
 	
 Qt_004 相依DLL
 	-QtCored4.dll
+	-QtGuid4.dll
+
+Qt_004-1 相依DLL
+	-QtCored4.dll
 	-QtGuid4.dll	
