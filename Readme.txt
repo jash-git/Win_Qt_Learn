@@ -41,6 +41,12 @@ Tool來源:http://qt.software.informer.com/download/
 			->影片在4:59有完整單純利用程式碼建立/解除基本slot/signal機制的方法
 			Ans:
 			connect(ui->horizontalSlider,SIGNAL(valueChanged(int)),ui->progressBar,SLOT(setValue(int)));//手動建立slot/signal機制
-			//disconnect(ui->horizontalSlider,SIGNAL(valueChanged(int)),ui->progressBar,SLOT(setValue(int)));//手動解除slot/signal機制			
+			//disconnect(ui->horizontalSlider,SIGNAL(valueChanged(int)),ui->progressBar,SLOT(setValue(int)));//手動解除slot/signal機制
+	
+	-Qt_004-1 [對應 Movie-C++ Qt 04 的專案程式] (自己獨立實作範例，影片到現在還沒有教)
+		note:
+			->實現自訂slot函數的做法
+			Ans:
+			請查看『help_img』的說明圖
 			
 			
