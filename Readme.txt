@@ -10,18 +10,37 @@ Tool來源:http://qt.software.informer.com/download/
 	
 ■Movie
 	-C++ Qt 01 - Introduction to QT programming.mp4 [單純告知這一系列教學文件運用的QT TOOL 版本]
+	
 	-C++ Qt 02 - hello world.mp4 [撰寫第一支 Qt程式 測試安裝環境的正確性]
-	-C++ Qt 03 - Intro to GUI programming [撰寫第一支 Qt GUI程式，實作預設的slot/signal機制]
-
+	
+	-C++ Qt 03 - Intro to GUI programming.mp4 [撰寫第一支 Qt GUI程式，實作預設的slot/signal機制]
+	
+	-C++ Qt 04 - Signals and Slots.mp4 [繼續講解slot/signal機制，利用progressBar+horizontalSlider兩個元件實作，單純利用程式碼建立/解除基本slot/signal機制的方法，當改變horizontalSlider拖拉值時，觸發progressBar顯示的百分比]
+	
 ■project_code
 	-Qt_002 [對應 Movie-C++ Qt 02 的專案程式]
+	
 	-Qt_003 [對應 Movie-C++ Qt 03 的專案程式]
 		note:
 			->實作預設的slot/signal機制
 			Ans:直接按照help_img.png 提示即可
 			
-			->How do I create a custom slot in qt4 designer?
+			->How do I create a custom slot in qt4 designer?	[http://stackoverflow.com/questions/165637/how-do-i-create-a-custom-slot-in-qt4-designer]
 			Ans:
 			01.Switch to Edit Signals/Slots mode (F4)
 			02.Drag and drop from the widget which is to emit the signal, to the widget which is to receive the signal.
+	
+	-Qt_004 [對應 Movie-C++ Qt 04 的專案程式]
+		note:
+			->在表單的工具列上點右鍵選擇[Remove Tool Bar]
+		
+			->在表單上點右鍵選擇[Remove Status Bar]
+		
+			->額外利用QVBoxLayout把progressBar+horizontalSlider 變成一組對其元件，方便版面排版對旗
+			
+			->影片在4:59有完整單純利用程式碼建立/解除基本slot/signal機制的方法
+			Ans:
+			connect(ui->horizontalSlider,SIGNAL(valueChanged(int)),ui->progressBar,SLOT(setValue(int)));//手動建立slot/signal機制
+			//disconnect(ui->horizontalSlider,SIGNAL(valueChanged(int)),ui->progressBar,SLOT(setValue(int)));//手動解除slot/signal機制			
+			
 			
