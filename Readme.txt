@@ -16,6 +16,8 @@ Tool來源:http://qt.software.informer.com/download/
 	-C++ Qt 03 - Intro to GUI programming.mp4 [撰寫第一支 Qt GUI程式，實作預設的slot/signal機制]
 	
 	-C++ Qt 04 - Signals and Slots.mp4 [繼續講解slot/signal機制，利用progressBar+horizontalSlider兩個元件實作，單純利用程式碼建立/解除基本slot/signal機制的方法，當改變horizontalSlider拖拉值時，觸發progressBar顯示的百分比]
+
+	-C++ Qt 05 - Displaying Windows.mp4[建立Menu+Tool Bar並建立基本slot/signal機制，另外建立自己的對話盒(Dialog)]
 	
 ■project_code
 	-Qt_002 [對應 Movie-C++ Qt 02 的專案程式]
@@ -49,4 +51,16 @@ Tool來源:http://qt.software.informer.com/download/
 			Ans:
 			請查看『help_img』的說明圖
 			
+	-Qt_005 [對應 Movie-C++ Qt 05 的專案程式]
+		note:
+			->將一個元件設為QMainWindow的編輯區
 			
+			->建立Menu+Tool Bar並建立基本slot/signal機制
+			Ans:
+			請查看『help_img』的說明圖，01~04
+			
+			->基本使用QMessageBox
+			
+			->建立自己的對話盒(Dialog)
+			Ans:
+			請查看『help_img』的說明圖，05~07			
