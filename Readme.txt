@@ -19,6 +19,8 @@ Tool來源:http://qt.software.informer.com/download/
 
 	-C++ Qt 05 - Displaying Windows.mp4[建立Menu+Tool Bar並建立基本slot/signal機制，另外建立自己的對話盒(Dialog)]
 	
+	-C++ Qt 06 - layouts, tabs and buddies.mp4[建立對話盒(Dialog)應用程式，使用Horizontally/Vetically layout+Horizontal/Vetical Spacer 實現元件版面配置和依照程式畫面大小自動縮放的功能]
+
 ■project_code
 	-Qt_002 [對應 Movie-C++ Qt 02 的專案程式]
 	
