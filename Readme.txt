@@ -21,6 +21,8 @@ Tool來源:http://qt.software.informer.com/download/
 	
 	-C++ Qt 06 - layouts, tabs and buddies.mp4[建立對話盒(Dialog)應用程式，使用Horizontally/Vetically layout+Horizontal/Vetical Spacer 實現元件版面配置和依照程式畫面大小自動縮放的功能]
 
+	-C++ Qt 07 - Basic Application and HTML Aware Widgets.mp4[建立一個空專案之後手動建立最小的Qt應用程式，該程式只有單一個lable元件，並實驗利用HTML語法改變lable顯示狀態]
+	
 ■project_code
 	-Qt_002 [對應 Movie-C++ Qt 02 的專案程式]
 	
