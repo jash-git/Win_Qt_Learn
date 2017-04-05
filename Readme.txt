@@ -23,6 +23,8 @@ Tool來源:http://qt.software.informer.com/download/
 
 	-C++ Qt 07 - Basic Application and HTML Aware Widgets.mp4[建立一個空專案之後手動建立最小的Qt應用程式，該程式只有單一個lable元件，並實驗利用HTML語法改變lable顯示狀態]
 	
+	-C++ Qt 08 - Horizontal and Vertical Layouts.mp4[建立一個空專案之後手動建立Qt應用程式，首先引用QPushButton、QHBoxLayout、QVBoxLayout函式庫，第二步建立一的QWidget+三個QPushButton元件，第三步建立一個QHBoxLayout元件並把三個QPushButton元件放入其中「addWidget()」，第三步把QHBoxLayout指定給QWidget當主要Layout「setLayout()」，並顯示配置結果「show()」；最後把QHBoxLayout元件替換成QVBoxLayout再看一次結果]	
+	
 ■project_code
 	-Qt_002 [對應 Movie-C++ Qt 02 的專案程式]
 	
