@@ -19,11 +19,11 @@ int main(int argc, char *argv[])
 
     QPushButton *Button_01=new QPushButton("OK");
 
-    Layout->addWidget(Label_01,0,0);//x,y
-    Layout->addWidget(LineEdit_01,0,1);//x,y
-    Layout->addWidget(Label_02,1,0);//x,y
-    Layout->addWidget(LineEdit_02,1,1);//x,y
-    Layout->addWidget(Button_01,2,0,1,2);//x,y,y_width,x_width
+    Layout->addWidget(Label_01,0,0);//y,x
+    Layout->addWidget(LineEdit_01,0,1);//y,x
+    Layout->addWidget(Label_02,1,0);//y,x
+    Layout->addWidget(LineEdit_02,1,1);//y,x
+    Layout->addWidget(Button_01,2,0,1,2);//y,x,y_width,x_width
     windows->setLayout(Layout);
     ///
 
