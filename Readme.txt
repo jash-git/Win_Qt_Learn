@@ -27,6 +27,8 @@ Tool來源:http://qt.software.informer.com/download/
 
 	-C++ Qt 09 - QGridLayout.mp4[建立一個空專案之後手動建立Qt應用程式，延續Qt 08的主題，本次利用QGridLayout來實作版面配置應用範例]
 	
+	-C++ Qt 10 - Splitters.mp4[建立GUI的對話盒(Dialog)專案，並放上兩的按鈕(QPushButton)+QSplitter元件，實作簡易視窗分割可調整效果]
+	
 ■project_code
 	-Qt_002 [對應 Movie-C++ Qt 02 的專案程式]
 	
