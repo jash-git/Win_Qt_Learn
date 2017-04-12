@@ -28,7 +28,35 @@ Tool來源:http://qt.software.informer.com/download/
 	-C++ Qt 09 - QGridLayout.mp4[建立一個空專案之後手動建立Qt應用程式，延續Qt 08的主題，本次利用QGridLayout來實作版面配置應用範例]
 	
 	-C++ Qt 10 - Splitters.mp4[建立GUI的對話盒(Dialog)專案，並放上兩的按鈕(QPushButton)+QSplitter元件，實作簡易視窗分割可調整效果]
-	
+
+	-C++ Qt 11 - QDir.mp4[利用QDir學習操作檔案目錄結構]
+		QDir
+			可以在建構子時指定操作目錄
+			可以用exists()判斷目錄是否存在
+			可以用drives()取得所有磁碟機清單(06:02有範例)
+			可以用mkpath()建立一個完整的目錄結構
+			可以用entryInfoList()取得該層目錄的檔案和目錄
+			利用QDir此類來遍歷某個目錄中所有目錄和檔案
+			void chakan(QString path)
+			{
+				//資料來源:http://jiabaolong.cn/archives/345
+				QDir dir(path);
+				foreach(QFileInfo mfi ,dir.entryInfoList())
+				{
+					if(mfi.isFile())
+					{
+						qDebug()<< "File :" << mfi.fileName();
+					}
+					else
+					{
+						if(mfi.fileName()=="." || mfi.fileName() == "..")//要注意，在各種檔案系統中通常還會包含目前的目錄和上層目錄，所以，要注意在遍歷的時候要把這兩個目錄過濾掉，否則會出現閉環
+							continue;
+						qDebug() << "Entry Dir" << mfi.absoluteFilePath();
+						chakan(mfi.absoluteFilePath());
+					}
+				}
+			}
+		
 ■project_code
 	-Qt_002 [對應 Movie-C++ Qt 02 的專案程式]
 	
