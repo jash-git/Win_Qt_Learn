@@ -60,6 +60,8 @@ Tool來源:http://qt.software.informer.com/download/
 	-C++ Qt 12 - QFile.mp4[利用QFile學習操作檔案讀寫等操作]
 		建立文字檔的寫入(Write)/讀取(Read)函數，其中QFile只是則開關檔案，而要存取文字檔內容必須利用QTextStream
 		比較完整的檔案寫入和讀取的範例請參考project_code內Qt_012目錄的兩個CPP，此範例是完整的依序每次寫入和讀取都是以一行資料為單位的標準範例
+
+	-C++ Qt 13 - Resource Files.mp4[建立qrc檔，讀取rc內定義的路徑檔案就只要在路徑前面加上冒號即可(影片03:03有明確教學)]
 		
 ■project_code
 	-Qt_002 [對應 Movie-C++ Qt 02 的專案程式]
@@ -114,3 +116,8 @@ Tool來源:http://qt.software.informer.com/download/
 	-Qt_012 [對應 Movie-C++ Qt 12 的專案程式]
 		note:
 			範例來源:https://openhome.cc/Gossip/Qt4Gossip/QTextStream.html
+			
+	-Qt_013 [對應 Movie-C++ Qt 13 的專案程式]
+		note:
+			建立一個Qt Console的專案程式而非一個QT空專案
+			測試確定qrc內所指定的檔案會被包覆到執行檔中，所以在任何地方都可執行
