@@ -62,7 +62,9 @@ Tool來源:http://qt.software.informer.com/download/
 		比較完整的檔案寫入和讀取的範例請參考project_code內Qt_012目錄的兩個CPP，此範例是完整的依序每次寫入和讀取都是以一行資料為單位的標準範例
 
 	-C++ Qt 13 - Resource Files.mp4[建立qrc檔，讀取rc內定義的路徑檔案就只要在路徑前面加上冒號即可(影片03:03有明確教學)]
-		
+
+	-C++ Qt 14 - QLabel and QT Designer.mp4[建立對話盒(Dialog)應用程式，並利用QT Designer在對話盒上設定QLabel相關屬性(PS範例中有點出QLabel支援HTML語法設定效果)，藉此練習QT Designer的基本用法]
+	
 ■project_code
 	-Qt_002 [對應 Movie-C++ Qt 02 的專案程式]
 	
