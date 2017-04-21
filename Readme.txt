@@ -66,6 +66,8 @@ Tool來源:http://qt.software.informer.com/download/
 	-C++ Qt 14 - QLabel and QT Designer.mp4[建立對話盒(Dialog)應用程式，並利用QT Designer在對話盒上設定QLabel相關屬性(PS範例中有點出QLabel支援HTML語法設定效果)，藉此練習QT Designer的基本用法]
 
 	-C++ Qt 15 - QPushButton.mp4[建立對話盒(Dialog)應用程式，並利用QT Designer在對話盒上新增QPushButton元件並設定相關屬性和slot/signal，最後在slot函數內撰寫顯示QMessageBox來驗證slot/signal機制動作的正確性]
+
+	-C++ Qt 16 - QLineEdit.mp4[建立對話盒(Dialog)應用程式，並利用QT Designer在對話盒上新增QLineEdit+QPushButton元件，其中設定QLineEdit的echoMode屬性讓顯示時呈現密碼模式+新增QPushButton元件並設定相關屬性和slot/signal，最後在slot函數內撰寫顯示QMessageBox來顯示QLineEdit內容]
 	
 ■project_code
 	-Qt_002 [對應 Movie-C++ Qt 02 的專案程式]
