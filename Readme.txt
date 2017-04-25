@@ -70,6 +70,8 @@ Tool來源:http://qt.software.informer.com/download/
 	-C++ Qt 16 - QLineEdit.mp4[建立對話盒(Dialog)應用程式，並利用QT Designer在對話盒上新增QLineEdit+QPushButton元件，其中設定QLineEdit的echoMode屬性讓顯示時呈現密碼模式+新增QPushButton元件並設定相關屬性和slot/signal，最後在slot函數內撰寫顯示QMessageBox來顯示QLineEdit內容]
 
 	-C++ Qt 17 - QCheckBox.mp4[建立對話盒(Dialog)應用程式，並利用QT Designer在對話盒上新增QCheckBox+QPushButton元件，首先在Dialog建構子內撰寫呼叫QCheckBox成員函數setChecked(true);藉此改變物件預設核選狀態，之後新增QPushButton的slot/signal機制，最後在QPushButton的slot函數內撰寫呼叫QCheckBox成員函數isChecked()判斷該物件當下核選狀態，並顯示不同的QMessageBox內容]
+
+	-C++ Qt 18 - QRadioButton.mp4[建立對話盒(Dialog)應用程式，並利用QT Designer在對話盒上新增2*QRadioButton+1*QPushButton元件，首先新增QPushButton的slot/signal機制，最後在QPushButton的slot函數內撰寫呼叫QRadioButton成員函數isChecked()判斷該物件當下核選狀態，並顯示不同的QMessageBox內容]
 	
 ■project_code
 	-Qt_002 [對應 Movie-C++ Qt 02 的專案程式]
