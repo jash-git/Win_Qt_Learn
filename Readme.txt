@@ -73,7 +73,9 @@ Tool來源:http://qt.software.informer.com/download/
 
 	-C++ Qt 18 - QRadioButton.mp4[建立對話盒(Dialog)應用程式，並利用QT Designer在對話盒上新增2*QRadioButton+1*QPushButton元件，首先新增QPushButton的slot/signal機制，最後在QPushButton的slot函數內撰寫呼叫QRadioButton成員函數isChecked()判斷該物件當下核選狀態，並顯示不同的QMessageBox內容]
 
-	-C++ Qt 19- QComboBox.mp4[建立對話盒(Dialog)應用程式，並利用QT Designer在對話盒上新增1*QComboBox+1*QPushButton元件，首先在Dialog建構子內撰寫呼叫QComboBox成員函數addItem();藉此新增物件內容選項，之後新增QPushButton的slot/signal機制，最後在QPushButton的slot函數內撰寫呼叫QComboBox的成員函數currentText()/currentIndex()取得當下選擇內容 文字/位置，並顯示不同的QMessageBox內容]
+	-C++ Qt 19 - QComboBox.mp4[建立對話盒(Dialog)應用程式，並利用QT Designer在對話盒上新增1*QComboBox+1*QPushButton元件，首先在Dialog建構子內撰寫呼叫QComboBox成員函數addItem();藉此新增物件內容選項，之後新增QPushButton的slot/signal機制，最後在QPushButton的slot函數內撰寫呼叫QComboBox的成員函數currentText()/currentIndex()取得當下選擇內容 文字/位置，並顯示不同的QMessageBox內容]
+
+	-C++ Qt 20 - QListWidget.mp4[建立對話盒(Dialog)應用程式，並利用QT Designer在對話盒上新增1*QListWidget+1*QPushButton元件，首先在Dialog建構子內撰寫呼叫QListWidget成員函數addItem();藉此新增物件內容選項，之後新增QPushButton的slot/signal機制，最後在QPushButton的slot函數內撰寫呼叫QListWidget的成員函數currentItem()/currentRow()取得當下選擇內容 文字/位置，並顯示不同的QMessageBox內容]
 	
 ■project_code
 	-Qt_002 [對應 Movie-C++ Qt 02 的專案程式]
