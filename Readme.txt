@@ -79,6 +79,8 @@ Tool來源:http://qt.software.informer.com/download/
 
 	-C++ Qt 21 - QTreeWidget.mp4[建立對話盒(Dialog)應用程式，並利用QT Designer在對話盒上新增1*QTreeWidget+1*QPushButton元件，實作表單(Gridview)內階層樹狀結構範例]
 	
+	-C++ Qt 22 - QTreeWidget Continued.mp4[延續上一個範例，實做出改變選擇當前選項的文字+背景顏色( 使用 currentItem()->setBackgroundColor(index,Qt::red); 來實現 )]
+	
 ■project_code
 	-Qt_002 [對應 Movie-C++ Qt 02 的專案程式]
 	
