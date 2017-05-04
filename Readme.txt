@@ -82,6 +82,8 @@ Tool來源:http://qt.software.informer.com/download/
 	-C++ Qt 22 - QTreeWidget Continued.mp4[延續上一個範例，實做出改變選擇當前選項的文字+背景顏色( 使用 currentItem()->setBackgroundColor(index,Qt::red); 來實現 )]
 
 	-C++ Qt 23 QActions.mp4[建立單一文件介面(SDI)應用程式，並手動新增資源檔(Qt Resource file)用來儲存ICON，藉此用來顯示在工具選單(Tool Menu)上]
+
+	-C++ Qt 24 - QSlider and QProgressBar.mp4[建立對話盒(Dialog)應用程式，並利用QT Designer在對話盒上新增1*QSlider+1*QProgressBar元件並設定相關屬性和slot/signal，又或者直接使用程式碼的方式直接指定slot/signal關係，讓QSlider的事件直接驅動QProgressBar]
 	
 ■project_code
 	-Qt_002 [對應 Movie-C++ Qt 02 的專案程式]
