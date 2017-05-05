@@ -84,6 +84,8 @@ Tool來源:http://qt.software.informer.com/download/
 	-C++ Qt 23 QActions.mp4[建立單一文件介面(SDI)應用程式，並手動新增資源檔(Qt Resource file)用來儲存ICON，藉此用來顯示在工具選單(Tool Menu)上]
 
 	-C++ Qt 24 - QSlider and QProgressBar.mp4[建立對話盒(Dialog)應用程式，並利用QT Designer在對話盒上新增1*QSlider+1*QProgressBar元件並設定相關屬性和slot/signal，又或者直接使用程式碼的方式直接指定slot/signal關係，讓QSlider的事件直接驅動QProgressBar]
+
+	-C++ Qt 25 - QStatusBar.mp4[建立單一文件介面(SDI)應用程式，並加上1*QStatusBar+1*QProgressBar元件，之後再工具選單(Tool Menu)上增加修改QProgressBar顯示值的對應程式碼]
 	
 ■project_code
 	-Qt_002 [對應 Movie-C++ Qt 02 的專案程式]
