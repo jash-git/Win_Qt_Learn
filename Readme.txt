@@ -87,6 +87,8 @@ Tool來源:http://qt.software.informer.com/download/
 
 	-C++ Qt 25 - QStatusBar.mp4[建立單一文件介面(SDI)應用程式，並加上1*QStatusBar+1*QProgressBar元件，之後再工具選單(Tool Menu)上增加修改QProgressBar顯示值的對應程式碼]
 	
+	-C++ Qt 26 - QMessageBox.mp4[建立對話盒(Dialog)應用程式，詳細介紹QMessageBox四種用法]
+
 ■project_code
 	-Qt_002 [對應 Movie-C++ Qt 02 的專案程式]
 	
