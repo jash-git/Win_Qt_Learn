@@ -103,7 +103,7 @@ Tool來源:http://qt.software.informer.com/download/
 			~QMessageBox::about(this, "About", "About this application")	
 			~QMessageBox::about(this, "About", "About this <font color='red'>application</font>");
 			
-
+	-C++ Qt 27 - QTimer.mp4[建立一個Qt Console的專案程式，之後建立一個MyTimer的類別且繼承QObject和內建一個QTimer成員變數，最後實作出Console的Timer程式]
 			
 ■project_code
 	-Qt_002 [對應 Movie-C++ Qt 02 的專案程式]
