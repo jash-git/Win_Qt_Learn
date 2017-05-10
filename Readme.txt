@@ -104,7 +104,9 @@ Tool來源:http://qt.software.informer.com/download/
 			~QMessageBox::about(this, "About", "About this <font color='red'>application</font>");
 			
 	-C++ Qt 27 - QTimer.mp4[建立一個Qt Console的專案程式，之後建立一個MyTimer的類別且繼承QObject和內建一個QTimer成員變數，最後實作出Console的Timer程式]
-			
+
+	-C++ Qt 28 - QThread part 1 creating a thread.mp4[[建立一個Qt Console的專案程式，第二步建立一個MyThread類別且該類別繼承QThread，第三步實作MyThread的run函數，run函數內容是印出MyThread的name屬性10萬次，最後在main函數中建立3個MyThread的實體且依序指定name屬性並利用start成員依序啟動3個執行序]
+	
 ■project_code
 	-Qt_002 [對應 Movie-C++ Qt 02 的專案程式]
 	
