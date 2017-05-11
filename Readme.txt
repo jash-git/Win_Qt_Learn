@@ -107,7 +107,7 @@ Tool來源:http://qt.software.informer.com/download/
 
 	-C++ Qt 28 - QThread part 1 creating a thread.mp4[建立一個Qt Console的專案程式，第二步建立一個MyThread類別且該類別繼承QThread，第三步實作MyThread的run函數，run函數內容是印出MyThread的name屬性10萬次，最後在main函數中建立3個MyThread的實體且依序指定name屬性並利用start成員依序啟動3個執行序]
 
-	C++ Qt 29 - QThread part 2 the Priority.mp4[接續前一個教學影片，本次教學在介紹如何設定QThread的執行優先權，QThread的優先權設定就是在start成員中利用 QThread::HighPriority、 QThread::HighPriority...等參數指定來完成]
+	-C++ Qt 29 - QThread part 2 the Priority.mp4[接續前一個教學影片，本次教學在介紹如何設定QThread的執行優先權，QThread的優先權設定就是在start成員中利用 QThread::HighPriority、 QThread::HighPriority...等參數指定來完成]
 	
 ■project_code
 	-Qt_002 [對應 Movie-C++ Qt 02 的專案程式]
