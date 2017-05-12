@@ -105,10 +105,34 @@ Tool來源:http://qt.software.informer.com/download/
 			
 	-C++ Qt 27 - QTimer.mp4[建立一個Qt Console的專案程式，之後建立一個MyTimer的類別且繼承QObject和內建一個QTimer成員變數，最後實作出Console的Timer程式]
 
-	-C++ Qt 28 - QThread part 1 creating a thread.mp4[建立一個Qt Console的專案程式，第二步建立一個MyThread類別且該類別繼承QThread，第三步實作MyThread的run函數，run函數內容是印出MyThread的name屬性10萬次，最後在main函數中建立3個MyThread的實體且依序指定name屬性並利用start成員依序啟動3個執行序]
+	-C++ Qt 28 - QThread part 1 creating a thread.mp4[建立一個Qt Console的專案程式，第二步建立一個MyThread類別且該類別繼承QThread，第三步實作MyThread的run函數，run函數內容是印出MyThread自訂的name屬性1000次，最後在main函數中建立3個MyThread的實體且依序指定name屬性並利用start成員依序啟動3個執行序]
 
 	-C++ Qt 29 - QThread part 2 the Priority.mp4[接續前一個教學影片，本次教學在介紹如何設定QThread的執行優先權，QThread的優先權設定就是在start成員中利用 QThread::HighPriority、 QThread::HighPriority...等參數指定來完成]
-	
+
+	-C++ Qt 30 - QThread part 3 the QMutex.mp4[接續前一個教學影片，本次教學在介紹QMutex的目的是保護一個物件、資料結構或者程式碼片段，所以同一時間只有一個執行緒可以訪問它]
+		說明:
+			例如，這裡有一個執行序列印給使用者兩條消息：
+				void someMethod()  
+				{  
+				   qDebug("Hello");  
+				   qDebug("World");  
+				}  		
+			如果同時在兩個執行緒中調用這個方法，結果的順序將是：
+			  Hello
+			  Hello
+			  World
+			  World
+			所以必須加上QMutex來上讓與法執行完才切換執行緒
+				QMutex mutex;  
+				  
+				void someMethod()  
+				{  
+				   mutex.lock();  
+				   qDebug("Hello");  
+				   qDebug("World");  
+				   mutex.unlock();  
+				} 
+				
 ■project_code
 	-Qt_002 [對應 Movie-C++ Qt 02 的專案程式]
 	
@@ -167,3 +191,5 @@ Tool來源:http://qt.software.informer.com/download/
 		note:
 			建立一個Qt Console的專案程式而非一個QT空專案
 			測試確定qrc內所指定的檔案會被包覆到執行檔中，所以在任何地方都可執行
+			
+	-Qt_030 [對應 Movie-C++ Qt 30 的程式]		
