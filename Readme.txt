@@ -135,6 +135,8 @@ Tool來源:http://qt.software.informer.com/download/
 	
 	-C++ Qt 31 - QThread part 4 threads with a GUI.mp4[建立對話盒(Dialog)應用程式，第二步建立一個MyThread類別且該類別繼承QThread，並在該類別內建立signal機制準備把執行緒內的變數值傳遞給GUI，第三步在GUI建立對應slot函數用來改變GUI畫面，最後實現啟動和停止執行序程式碼]
 
+	-C++ Qt 32- Community Feedback.mp4[單純介紹自己YOUTUBE的影片位置]
+	
 ■project_code
 	-Qt_002 [對應 Movie-C++ Qt 02 的專案程式]
 	
