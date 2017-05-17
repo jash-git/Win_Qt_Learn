@@ -137,6 +137,8 @@ Tool來源:http://qt.software.informer.com/download/
 
 	-C++ Qt 32- Community Feedback.mp4[單純介紹自己YOUTUBE的影片位置]
 	
+	-C++ Qt 33 - QThread part 5 Waiting.mp4[呼叫執行序暫停]
+	
 ■project_code
 	-Qt_002 [對應 Movie-C++ Qt 02 的專案程式]
 	
